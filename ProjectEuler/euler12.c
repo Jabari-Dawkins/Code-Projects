@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <pthread.h>
 
 int getTriangleNumber(int index) {
 	int i, triangle = (index*(index+1))/2;
@@ -30,4 +29,3 @@ int main() {
 	printf("First triangular number with %d or more divisors is %d, with  %d divisions\n", numDivs, triNum, fCount);
 	return 0;
 }
-
